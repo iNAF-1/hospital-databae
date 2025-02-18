@@ -80,14 +80,13 @@ CONSTRAINT Department_Appointments_fk FOREIGN KEY(DoctorID) REFERENCES Doctors(D
 
 );
 
-INSERT INTO Patients VALUES(1, 'Nawaf', 'Almathmi',TO_DATE('01/20/2006','mm/dd/yyyy') , 'Male', '123643890', 'ksa');
-INSERT INTO Patients VALUES(2, 'Abdulrahman', 'Almutairi', TO_DATE('07/07/2004','mm/dd/yyyy'), 'Male', '128664567890', 'ksa');
-INSERT INTO Patients VALUES(3, 'Mohamed', 'Altuwairqi', TO_DATE('01/20/2006','mm/dd/yyyy'), 'Male', '1237657890', 'ksa');
-INSERT INTO Patients VALUES(4, 'Mohamed', 'hloani',TO_DATE('09/13/2005','mm/dd/yyyy') , 'male', '9876543210', 'ksa');
+INSERT INTO Patients VALUES(1, 'John', 'Smith',TO_DATE('01/20/2006','mm/dd/yyyy') , 'Male', '123643890', 'KSA');
+INSERT INTO Patients VALUES(2, 'Michael', 'Johnson', TO_DATE('07/07/2004','mm/dd/yyyy'), 'Male', '128664567890', 'KSA');
+INSERT INTO Patients VALUES(3, 'David', 'Brown', TO_DATE('01/20/2006','mm/dd/yyyy'), 'Male', '1237657890', 'KSA');
+INSERT INTO Patients VALUES(4, 'James', 'Wilson',TO_DATE('09/13/2005','mm/dd/yyyy') , 'Male', '9876543210', 'KSA');
 
-
-INSERT INTO Doctors VALUES(1, 'Dr. Mashal', 'Alayoubi', 'Cardiology', '5551234567', 'Mashal@gmail.com', 'KSA');
-INSERT INTO Doctors VALUES(2, 'Dr. Omar', 'Abu Alela', 'Neurology', '5559876543', 'Omar@gmail.com', 'KSA');
+INSERT INTO Doctors VALUES(1, 'Dr. William', 'Anderson', 'Cardiology', '5551234567', 'william.anderson@gmail.com', 'KSA');
+INSERT INTO Doctors VALUES(2, 'Dr. Robert', 'Taylor', 'Neurology', '5559876543', 'robert.taylor@gmail.com', 'KSA');
 
 
 INSERT INTO MedicalReports VALUES(1, 1, 1, TO_DATE('01/04/2024','mm/dd/yyyy') , 'Hypertension', 'Prescription details for hypertension');
